@@ -1,0 +1,49 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "first MySQL",
+            "database": "drivers",
+            "username": "root",
+            "password": "1998",
+            "connectionTimeout": 40
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "database one",
+            "username": "root",
+            "password": "",
+            "connectionTimeout": 40,
+            "database": "drivers"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "database",
+            "database": "automobile data",
+            "username": "root",
+            "password": "EmmaNueL@04!",
+            "connectionTimeout": 30
+        }
+    ]
+}
